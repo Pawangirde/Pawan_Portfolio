@@ -1,0 +1,182 @@
+[00:00:01.926] Server  LOG     
+[00:00:01.926] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:01.927] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:01.930] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:01.930] Server  LOG     
+[00:00:01.931] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+
+[00:00:01.931] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:01.932] Server  LOG     
+[00:00:02.308] Server  LOG      ✓ Ready in 1667ms
+[00:00:10.490] Server  LOG      ○ Compiling / ...
+[00:01:50.201] Server  LOG      ✓ Compiled in 121ms
+[00:01:52.742] Server  LOG      ✓ Compiled in 89ms
+[00:02:20.760] Server  LOG      ✓ Compiled in 73ms
+[00:02:23.443] Server  LOG      ✓ Compiled in 100ms
+[00:02:24.110] Browser ERROR   ./components/projects.tsx:35:7
+Parsing ecmascript source code failed
+  33 |       stack: ["React", "GraphQL", "Node.js", "DynamoDB"],
+  34 |       link
+> 35 |       highlights: [
+     |       ^^^^^^^^^^
+  36 |         "Built restaurant listing, menu screens, cart flow",
+  37 |         "Implemented authentication & protected routes",
+  38 |         "Integrated GraphQL APIs for orders and coupons",
+
+Unexpected token `highlights`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./components/projects.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/projects.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:02:27.120] Server  LOG      ✓ Compiled in 63ms
+[00:02:28.108] Browser ERROR   ./components/projects.tsx:35:7
+Parsing ecmascript source code failed
+  33 |       stack: ["React", "GraphQL", "Node.js", "DynamoDB"],
+  34 |       link:""
+> 35 |       highlights: [
+     |       ^^^^^^^^^^
+  36 |         "Built restaurant listing, menu screens, cart flow",
+  37 |         "Implemented authentication & protected routes",
+  38 |         "Integrated GraphQL APIs for orders and coupons",
+
+Expected ',', got 'highlights'
+
+Import traces:
+  Client Component Browser:
+    ./components/projects.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/projects.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:02:28.987] Server  LOG      ✓ Compiled in 140ms
+[00:02:45.811] Server  LOG      ✓ Compiled in 64ms
+[00:04:19.494] Server  LOG      ✓ Compiled in 80ms
+[00:04:20.111] Browser ERROR   ./components/projects.tsx:46:7
+Parsing ecmascript source code failed
+  44 |       stack: ["React", "AWS Lambda", "GraphQL", "DynamoDB"],
+  45 |       link
+> 46 |       highlights: [
+     |       ^^^^^^^^^^
+  47 |         "Developed modules for session scheduling",
+  48 |         "Built real-time slot management UI",
+  49 |         "Implemented role-based access control",
+
+Unexpected token `highlights`. Expected ... , *,  (, [, :, , ?, =, an identifier, public, protected, private, readonly, <.
+
+Import traces:
+  Client Component Browser:
+    ./components/projects.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/projects.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:04:22.035] Server  LOG      ✓ Compiled in 72ms
+[00:04:23.104] Browser ERROR   ./components/projects.tsx:46:7
+Parsing ecmascript source code failed
+  44 |       stack: ["React", "AWS Lambda", "GraphQL", "DynamoDB"],
+  45 |       link:"https://app.corporateolympia.com/"
+> 46 |       highlights: [
+     |       ^^^^^^^^^^
+  47 |         "Developed modules for session scheduling",
+  48 |         "Built real-time slot management UI",
+  49 |         "Implemented role-based access control",
+
+Expected ',', got 'highlights'
+
+Import traces:
+  Client Component Browser:
+    ./components/projects.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/projects.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:04:26.305] Server  LOG      ✓ Compiled in 77ms
+[00:05:08.274] Server  LOG      ✓ Compiled in 72ms
+[00:05:16.680] Server  LOG      ✓ Compiled in 75ms
+[00:05:17.104] Browser ERROR   ./components/projects.tsx:40:9
+Parsing ecmascript source code failed
+  38 |       highlights: [
+  39 |         "This is PWA "
+> 40 |         "Built restaurant listing, menu screens, cart flow",
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  41 |         "Implemented authentication & protected routes",
+  42 |         "Integrated GraphQL APIs for orders and coupons",
+  43 |       ],
+
+Expected ',', got 'string literal (Built restaurant listing, menu screens, cart flow, "Built restaurant listing, menu screens, cart flow")'
+
+Import traces:
+  Client Component Browser:
+    ./components/projects.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/projects.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:05:18.117] Browser ERROR   ./components/projects.tsx:40:9
+Parsing ecmascript source code failed
+  38 |       highlights: [
+  39 |         "This is PWA A"
+> 40 |         "Built restaurant listing, menu screens, cart flow",
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  41 |         "Implemented authentication & protected routes",
+  42 |         "Integrated GraphQL APIs for orders and coupons",
+  43 |       ],
+
+Expected ',', got 'string literal (Built restaurant listing, menu screens, cart flow, "Built restaurant listing, menu screens, cart flow")'
+
+Import traces:
+  Client Component Browser:
+    ./components/projects.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/projects.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:05:23.115] Browser ERROR   ./components/projects.tsx:40:9
+Parsing ecmascript source code failed
+  38 |       highlights: [
+  39 |         "This is PWA application"
+> 40 |         "Built restaurant listing, menu screens, cart flow",
+     |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  41 |         "Implemented authentication & protected routes",
+  42 |         "Integrated GraphQL APIs for orders and coupons",
+  43 |       ],
+
+Expected ',', got 'string literal (Built restaurant listing, menu screens, cart flow, "Built restaurant listing, menu screens, cart flow")'
+
+Import traces:
+  Client Component Browser:
+    ./components/projects.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/projects.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:05:33.584] Server  LOG      ✓ Compiled in 80ms
+[00:08:08.935] Server  LOG      ✓ Compiled in 77ms
+[00:08:27.189] Server  LOG      ✓ Compiled in 75ms
+[00:08:38.091] Server  LOG      ✓ Compiled in 76ms
