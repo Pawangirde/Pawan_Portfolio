@@ -5,6 +5,21 @@ interface HeroProps {
 }
 
 export default function Hero({ setActiveSection }: HeroProps) {
+  const handleScrollToSection = (sectionId: string) => {
+    setActiveSection(sectionId)
+    const element = document.getElementById(sectionId)
+    if (element) {
+      const offset = 80 // Account for sticky navbar height
+      const elementPosition = element.getBoundingClientRect().top
+      const offsetPosition = elementPosition + window.pageYOffset - offset
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      })
+    }
+  }
+
   return (
     <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 py-20">
       <div className="max-w-4xl w-full">
@@ -21,7 +36,7 @@ export default function Hero({ setActiveSection }: HeroProps) {
 
           <div className="flex flex-col sm:flex-row gap-4 pt-8">
             <button
-              onClick={() => setActiveSection("experience")}
+              onClick={() => handleScrollToSection("experience")}
               className="px-8 py-3 bg-accent text-accent-foreground font-medium rounded-lg hover:bg-accent/90 transition-colors"
             >
               View My Work
