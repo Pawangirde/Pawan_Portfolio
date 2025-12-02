@@ -35,7 +35,7 @@ export default function Projects() {
       description:
         "Restaurant and food delivery platform with order management",
       stack: ["React", "GraphQL", "Node.js", "DynamoDB"],
-      link: "https://foodizms.netlify.app/",
+      link: "https://foodizm.in",
       highlights: [
         "This is PWA application",
         "Built restaurant listing, menu screens, cart flow",
